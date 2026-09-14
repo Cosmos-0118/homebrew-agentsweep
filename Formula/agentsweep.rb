@@ -9,22 +9,22 @@
 class Agentsweep < Formula
   desc "Understand and control what your coding agents store locally"
   homepage "https://github.com/Cosmos-0118/AgentSweep"
-  version "1.0.2"
+  version "1.0.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Cosmos-0118/AgentSweep/releases/download/v1.0.2/agentsweep-aarch64-apple-darwin"
-      sha256 "7e5ec792d68e716725303a6c7eed74aed11a3095fe901ebceeb7b2ed4b3bec53"
+      url "https://github.com/Cosmos-0118/AgentSweep/releases/download/v1.0.3/agentsweep-aarch64-apple-darwin"
+      sha256 "1b54ca0a3d64fba81c0896134bb8907c9c3f8349c56a9a45f58af22bb8d76abd"
     else
-      url "https://github.com/Cosmos-0118/AgentSweep/releases/download/v1.0.2/agentsweep-x86_64-apple-darwin"
-      sha256 "f772fb3b0c7a5515c4ffe2a87293ce6ac143e1124a27951333ed3b54a9655725"
+      url "https://github.com/Cosmos-0118/AgentSweep/releases/download/v1.0.3/agentsweep-x86_64-apple-darwin"
+      sha256 "6df90c44e79bf09b0b4d136d0fbd765f19c3c3dbd5b904a40a960bdaeb896c52"
     end
   end
 
   on_linux do
-    url "https://github.com/Cosmos-0118/AgentSweep/releases/download/v1.0.2/agentsweep-x86_64-unknown-linux-gnu"
-    sha256 "6edd4f81279c38ec408c3abe3f954217a1ae8849c6081ef8b1a6bbf72b97fddc"
+    url "https://github.com/Cosmos-0118/AgentSweep/releases/download/v1.0.3/agentsweep-x86_64-unknown-linux-gnu"
+    sha256 "7dd3839a2ed23721eec2bb1e51a6e9b33f3838c64ac34d847d467432fa5ed63e"
   end
 
   def install
