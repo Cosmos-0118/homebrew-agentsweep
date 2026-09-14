@@ -15,16 +15,16 @@ class Agentsweep < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/Cosmos-0118/AgentSweep/releases/download/v1.0.0/agentsweep-aarch64-apple-darwin"
-      sha256 "6ba22bbbe64fe2a30033dd5d90fa04f253f6d9acbb3c09068384981ac73616a8"
+      sha256 "2846aa39fc3764e73b2dd375d0a92d02d6bd58bc09f4097b8fea1bcf96bb4898"
     else
       url "https://github.com/Cosmos-0118/AgentSweep/releases/download/v1.0.0/agentsweep-x86_64-apple-darwin"
-      sha256 "a0b2dcd03eced28aa6016c211c0daa862b2b0650fcdc87bef29520ccef42ccb9"
+      sha256 "9b6370f9e5b82d30f589bfbaea3607162229d8dd172d8999ba332c78566ace75"
     end
   end
 
   on_linux do
     url "https://github.com/Cosmos-0118/AgentSweep/releases/download/v1.0.0/agentsweep-x86_64-unknown-linux-gnu"
-    sha256 "334f0fffde7c25576c12990b37d77ad30e983f281c525fde5bb678d91b8a0732"
+    sha256 "56057ec6c8da10ec9c8930963b29b2ee267fc3b2c686bdc6ff0bcfa8b894bb10"
   end
 
   def install
